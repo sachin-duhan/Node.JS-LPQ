@@ -8,10 +8,7 @@ The example is implemented in node.js with the restify package.
 4. client: repeat Step 3 until job is finished and server provides `201 - Created`
 5. client: GET &rarr; `/result/:job_id` to get the results of the long-running job.
 
-### Testing & Coverage ###
-A basic test is included. It tries to determine if:
-1.  the API allows for a client to start a long-running job,
-2.  the API provides a way for the client to determine if the results of the long-running job are available, and,
-3.  the server should provide those results to the client when thay are available
-
-Test coverage is incomplete, e.g., no input validation is performed,  edge cases are not considered, etc. Do not use this code except for study.
+## AUTHOR DETAILS 
+1. NAME - SACHIN DUHAN
+2. INSITUTE - DELHI TECHBOLOGICAL UNIVERSITY
+3. PORTFOLIO - http://sachinduhan.me/
